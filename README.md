@@ -45,8 +45,23 @@ $ docker run -d --name code-server \
 
 ## Pre-installed Softwares
 
+- Python v3.6.9
+- Node v12.20.0
+- Npm v6.14.8
+
 ## Version
+
+| version |             Updates             |
+| :-----: | :-----------------------------: |
+| latest  | Pre-installed softwares updated |
+| v1.0.0  |     First launched version      |
+
+You may find all the version [HERE](https://hub.docker.com/repository/docker/hikariai/code-server/tags?page=1&ordering=last_updated)
 
 ## Reference
 
-## Liscense
+- [Orignal code-server repo from cdr/coder-server](https://hub.docker.com/repository/docker/hikariai/code-server/tags?page=1&ordering=last_updated)
+
+## License
+
+[MIT LICENSE]()
