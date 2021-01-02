@@ -1,7 +1,7 @@
 # code-server
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-![](https://img.shields.io/static/v1?label=Arc&message=linux/amd64,linux/arm64&color=orange)
+![](https://img.shields.io/static/v1?label=Platforms&message=linux/amd64,linux/arm64&color=orange)
 ![](https://img.shields.io/static/v1?label=Python&message=3.6&color=red)
 ![](https://img.shields.io/static/v1?label=build&message=passing&color=green)
 
