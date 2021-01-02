@@ -64,4 +64,4 @@ You may find all the version [HERE](https://hub.docker.com/repository/docker/hik
 
 ## License
 
-[MIT LICENSE]()
+[MIT LICENSE](https://github.com/yqlbu/code-server/blob/main/LICENSE)
