@@ -13,27 +13,35 @@
 
 *** Update Time: 2021/01/02
 
-This repo aims to give you clear instructions on how to install packages on AArch64(ARM) Platform, especially in Jetson family. All the packages have been tested on Jetson AGX Xavier and Jetson Nano.
+Run [VS Code](https://github.com/Microsoft/vscode) on any machine anywhere and access it in the browser
 
+## Highlights
 
+- Code on any device with a consistent development environment
+- Use remote servers either Public or Private Cloud to speed up tests, compilations, downloads, and more
+- Continue the development workflow remotely and get work done on time
 
-## Table of Contents
+## Getting Started
 
-* [Pytorch](#pytorch)
-* [Tensorflow](#tensorflow)
-* [Machine Learning](#machine-learning)
-* [LLVM](#llvm)
-* [Numba](#numba)
-* [ONNX](#onnx)
-* [Jetson Stats](#jetson-stats)
-* [VSCode](#vs-code-for-aarch64)
-* [Archiconda3](#archiconda3)
-* [OpenCV](#opencv)
-* [Pycharm](#pycharm)
-* [Docker](#docker)
-* [Dlib](#dlib)
-* [LabelImg](#labelimg)
-* [Qt5](#qt5)
-* [Kubernetes](#kubernetes)
-* [Nomachine](#nomachine)
+Notes:
 
+- This repo is a modified version of code-server provided by Coder car, you may find the original repo [HERE](https://github.com/cdr/code-server).
+
+- The software is compiled in a docker container, which means Docker is required to be installed in your host machine
+- The data associated with the container will be preserved in `/appdata/code-server` in your local machine
+
+To install, run:
+
+```bash
+$ docker run -d --name code-server -v /appdata/code-server:/data -p 8443:8443 --privileged hikariai/code-server:latest
+```
+
+*** The Web UI will be available at `http://localhost:8443`
+
+## Pre-installed Softwares
+
+## Version
+
+## Reference
+
+## Liscense
