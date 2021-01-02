@@ -25,7 +25,7 @@ Run [VS Code](https://github.com/Microsoft/vscode) on any machine anywhere and a
 
 Notes:
 
-- This repo is a modified version of code-server provided by Coder car, you may find the original repo [HERE](https://github.com/cdr/code-server).
+- This repo is a modified version of code-server provided by Coder car, you may find the original repo [HERE](https://github.com/cdr/code-server)
 
 - The software is compiled in a docker container, which means Docker is required to be installed in your host machine
 - The data associated with the container will be preserved in `/appdata/code-server` in your local machine
@@ -33,7 +33,11 @@ Notes:
 To install, run:
 
 ```bash
-$ docker run -d --name code-server -v /appdata/code-server:/data -p 8443:8443 --privileged hikariai/code-server:latest
+$ docker run -d --name code-server \
+  -v /appdata/code-server:/data \
+  -p 8443:8443 \
+  --privileged \
+  hikariai/code-server:latest
 ```
 
 *** The Web UI will be available at `http://localhost:8443`
