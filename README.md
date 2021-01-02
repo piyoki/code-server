@@ -7,7 +7,7 @@
 
 
 
-*** Copy Right 2020 Kevin Yu. All rights reserved.
+*** CopyRight 2020 Kevin Yu. All rights reserved.
 
 *** Author: Kevin Yu
 
