@@ -37,6 +37,7 @@ $ docker run -d --name code-server \
   -v /appdata/code-server:/data \
   -p 8443:8443 \
   --privileged \
+  --restart unless-stopped \
   hikariai/code-server:latest
 ```
 
