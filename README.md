@@ -15,6 +15,8 @@
 
 Run [VS Code](https://github.com/Microsoft/vscode) on any machine anywhere and access it in the browser
 
+![](https://github.com/yqlbu/code-server/blob/main/demo.png?raw=true)
+
 ## Highlights
 
 - Code on any device with a consistent development environment
@@ -60,7 +62,7 @@ You may find all the version [HERE](https://hub.docker.com/repository/docker/hik
 
 ## Reference
 
-- [Orignal code-server repo from cdr/coder-server](https://hub.docker.com/repository/docker/hikariai/code-server/tags?page=1&ordering=last_updated)
+[Orignal code-server repo from cdr/coder-server](https://hub.docker.com/repository/docker/hikariai/code-server/tags?page=1&ordering=last_updated)
 
 ## License
 
