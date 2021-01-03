@@ -48,8 +48,8 @@ $ docker run -d --name code-server \
 ## Pre-installed Softwares
 
 - Python v3.6.9
-- Node v12.20.0
-- Npm v6.14.8
+- Node v14.15.3
+- Npm v6.14.9
 
 ## Version
 
